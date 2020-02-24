@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD921E2620903C8200C0F57A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD921E2520903C8200C0F57A /* main.cpp */; };
+		AD921E3620904BCD00C0F57A /* ChessBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD921E3420904BCD00C0F57A /* ChessBoard.cpp */; };
+		AD921E392090E0FE00C0F57A /* Judge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD921E372090E0FE00C0F57A /* Judge.cpp */; };
+		AD921E3C2091385B00C0F57A /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD921E3A2091385B00C0F57A /* Player.cpp */; };
+		AD921E3F20915C8E00C0F57A /* Computer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD921E3D20915C8E00C0F57A /* Computer.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD921E2020903C8200C0F57A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AD921E2220903C8200C0F57A /* AIGobang */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AIGobang; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD921E2520903C8200C0F57A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AD921E3420904BCD00C0F57A /* ChessBoard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChessBoard.cpp; sourceTree = "<group>"; };
+		AD921E3520904BCD00C0F57A /* ChessBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessBoard.h; sourceTree = "<group>"; };
+		AD921E372090E0FE00C0F57A /* Judge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Judge.cpp; sourceTree = "<group>"; };
+		AD921E382090E0FE00C0F57A /* Judge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Judge.h; sourceTree = "<group>"; };
+		AD921E3A2091385B00C0F57A /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		AD921E3B2091385B00C0F57A /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		AD921E3D20915C8E00C0F57A /* Computer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Computer.cpp; sourceTree = "<group>"; };
+		AD921E3E20915C8E00C0F57A /* Computer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Computer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD921E1F20903C8200C0F57A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD921E1920903C8200C0F57A = {
+			isa = PBXGroup;
+			children = (
+				AD921E2420903C8200C0F57A /* AIGobang */,
+				AD921E2320903C8200C0F57A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD921E2320903C8200C0F57A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD921E2220903C8200C0F57A /* AIGobang */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD921E2420903C8200C0F57A /* AIGobang */ = {
+			isa = PBXGroup;
+			children = (
+				AD921E2520903C8200C0F57A /* main.cpp */,
+				AD921E3520904BCD00C0F57A /* ChessBoard.h */,
+				AD921E3420904BCD00C0F57A /* ChessBoard.cpp */,
+				AD921E382090E0FE00C0F57A /* Judge.h */,
+				AD921E372090E0FE00C0F57A /* Judge.cpp */,
+				AD921E3B2091385B00C0F57A /* Player.h */,
+				AD921E3A2091385B00C0F57A /* Player.cpp */,
+				AD921E3E20915C8E00C0F57A /* Computer.h */,
+				AD921E3D20915C8E00C0F57A /* Computer.cpp */,
+			);
+			path = AIGobang;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD921E2120903C8200C0F57A /* AIGobang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD921E2920903C8200C0F57A /* Build configuration list for PBXNativeTarget "AIGobang" */;
+			buildPhases = (
+				AD921E1E20903C8200C0F57A /* Sources */,
+				AD921E1F20903C8200C0F57A /* Frameworks */,
+				AD921E2020903C8200C0F57A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AIGobang;
+			productName = AIGobang;
+			productReference = AD921E2220903C8200C0F57A /* AIGobang */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD921E1A20903C8200C0F57A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Meidi;
+				TargetAttributes = {
+					AD921E2120903C8200C0F57A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = AD921E1D20903C8200C0F57A /* Build configuration list for PBXProject "AIGobang" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD921E1920903C8200C0F57A;
+			productRefGroup = AD921E2320903C8200C0F57A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD921E2120903C8200C0F57A /* AIGobang */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD921E1E20903C8200C0F57A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD921E3F20915C8E00C0F57A /* Computer.cpp in Sources */,
+				AD921E3C2091385B00C0F57A /* Player.cpp in Sources */,
+				AD921E2620903C8200C0F57A /* main.cpp in Sources */,
+				AD921E392090E0FE00C0F57A /* Judge.cpp in Sources */,
+				AD921E3620904BCD00C0F57A /* ChessBoard.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AD921E2720903C8200C0F57A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AD921E2820903C8200C0F57A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AD921E2A20903C8200C0F57A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD921E2B20903C8200C0F57A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD921E1D20903C8200C0F57A /* Build configuration list for PBXProject "AIGobang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD921E2720903C8200C0F57A /* Debug */,
+				AD921E2820903C8200C0F57A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD921E2920903C8200C0F57A /* Build configuration list for PBXNativeTarget "AIGobang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD921E2A20903C8200C0F57A /* Debug */,
+				AD921E2B20903C8200C0F57A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD921E1A20903C8200C0F57A /* Project object */;
+}
